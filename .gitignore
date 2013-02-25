@@ -28,3 +28,14 @@ frontend/config/params-env.php
 backend/config/params-env.php
 common/config/params-env.php
 
+console/config/evironments/params-*.php
+frontend/config/evironments/params-*.php
+backend/config/evironments/params-*.php
+common/config/environments/params-*.php
+
+console/config/evironments/main-*.php
+frontend/config/evironments/main-*.php
+backend/config/evironments/main-*.php
+
+
+
