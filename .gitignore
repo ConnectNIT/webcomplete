@@ -1,7 +1,5 @@
 backend/www/assets/*
-!backend/www/assets/.gitkeep
 frontend/www/assets/*
-!frontend/www/assets/.gitkeep
 
 console/runtime/*
 !console/runtime/.gitkeep
@@ -37,5 +35,7 @@ console/config/evironments/main-*.php
 frontend/config/evironments/main-*.php
 backend/config/evironments/main-*.php
 
+common/data/*
+!common/data/.ctlib
 
 
