@@ -1,0 +1,4 @@
+backend/www/assets/*
+!backend/www/assets/.gitkeep
+frontend/www/assets/*
+!frontend/www/assets/.gitkeep
