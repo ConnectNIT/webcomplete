@@ -10,6 +10,6 @@ chdir(dirname(__FILE__) . '/..');
 
 $config =  'console/config/main.php';
 
-require_once('common/lib/Yii/yii.php');
+require_once('common/lib/yii/framework/yii.php');
 require_once('common/lib/global.php');
-require_once('common/lib/Yii/yiic.php');
+require_once('common/lib/yii/framework/yiic.php');

@@ -22,7 +22,7 @@ chdir(dirname(__FILE__).'/../..');
 $root=dirname(__FILE__).'/..';
 $common=$root.'/../common';
 
-require_once($common.'/lib/Yii/yii.php');
+require_once($common.'/lib/yii/framework/yii.php');
 $config=require('backend/config/main.php');
 require_once($common.'/components/WebApplication.php');
 require_once('common/lib/global.php');
