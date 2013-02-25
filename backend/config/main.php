@@ -95,7 +95,7 @@ return CMap::mergeArray(
 //			),
 			'urlManager' => array(
 				'urlFormat' => 'path',
-				'showScriptName' => false,
+				'showScriptName' => true,
 				'urlSuffix' => '/',
 				'rules' => $params['url.rules']
 			),
