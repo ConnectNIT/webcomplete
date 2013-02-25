@@ -2,3 +2,10 @@ backend/www/assets/*
 !backend/www/assets/.gitkeep
 frontend/www/assets/*
 !frontend/www/assets/.gitkeep
+
+console/runtime/*
+!console/runtime/.gitkeep
+frontend/runtime/*
+!frontend/runtime/.gitkeep
+backend/runtime/*
+!backend/runtime/.gitkeep
