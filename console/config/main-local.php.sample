@@ -21,11 +21,6 @@ return array(
 			'enableParamLogging' => YII_DEBUG,
 			'charset' => 'utf8'
 		),
-		'urlManager' => array(
-			'urlFormat' => $params['url.format'],
-			'showScriptName' => $params['url.showScriptName'],
-			'rules' => $params['url.rules']
-		)
 	)
 );
 
