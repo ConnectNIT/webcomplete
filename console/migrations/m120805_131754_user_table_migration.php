@@ -34,15 +34,15 @@ class m120805_131754_user_table_migration extends CDbMigration
 		/* add demo users */
 		$demoUser = new User();
 		$demoUser->username = "demo";
-		$demoUser->email = "demo@clevertech.biz";
-		$demoUser->password = "clevertech";
+		$demoUser->email = "demo@example.com";
+		$demoUser->password = "demopass";
 
 		$demoUser->save();
 
 		$adminUser = new User();
 		$adminUser->username = "admin";
-		$adminUser->email = "admin@clevertech.biz";
-		$adminUser->password = "clevertech";
+		$adminUser->email = "admin@example.com";
+		$adminUser->password = "adminpass";
 
 		$adminUser->save();
 
