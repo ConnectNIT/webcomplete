@@ -51,8 +51,22 @@ chmod 777 backend/www/assets \
   backend/runtime \
   frontend/runtime
 ```
+6. Modify .htaccess
+-------------------
 
-6. Ready to go
+```
+vi backend/www/.htaccess
+
+```
+
+change the `RewriteBase` if you use pretty urls.
+Similarly for frontend.
+
+```
+vi frontend/www/.htaccess
+```
+
+7. Ready to go
 --------------
 
   Application configurations are finished and open your browser and point to www folders in backend and frontend to view frontend app and backend app respectively.

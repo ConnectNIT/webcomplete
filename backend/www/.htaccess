@@ -336,7 +336,7 @@ FileETag None
   Options +FollowSymlinks
 # Options +SymLinksIfOwnerMatch
   RewriteEngine On
-# RewriteBase /
+# RewriteBase /webcomplete/backend/www/
 </IfModule>
 
 
@@ -468,6 +468,7 @@ AddCharset utf-8 .atom .css .js .json .rss .vtt .xml
   RewriteCond %{SCRIPT_FILENAME} -d [OR]
   RewriteCond %{SCRIPT_FILENAME} -f
   RewriteRule "(^|/)\." - [F]
+  RewriteRule . index.php
 </IfModule>
 
 # Block access to backup and source files. These files may be left by some
